@@ -38,13 +38,13 @@ var stars = [
 ];
 
 function preload() {
-  bgImg = loadImage("assets/background.png");
-  starImg = loadImage("assets/star.png");
-  playerImg = loadImage("assets/player1.png");
-  player2Img = loadImage("assets/player2.png");
-  player3Img = loadImage("assets/player3.png");
-  song = loadSound("assets/bg.mp3");
-  gameOverSound = loadSound("assets/fall.mp3");
+  bgImg = loadImage("background.png");
+  starImg = loadImage("star.png");
+  playerImg = loadImage("player1.png");
+  player2Img = loadImage("player2.png");
+  player3Img = loadImage("player3.png");
+  song = loadSound("bg.mp3");
+  gameOverSound = loadSound("fall.mp3");
 }
 
 function setup() {
